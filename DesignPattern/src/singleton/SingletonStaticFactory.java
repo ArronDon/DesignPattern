@@ -2,7 +2,7 @@ package singleton;
 /**
 * @author arron
 * 2016年9月9日下午5:11:49
-* desc:静态工厂方法实现
+* desc:静态工厂方法实现 推荐
 */
 public class SingletonStaticFactory {
     //initialized during class loading

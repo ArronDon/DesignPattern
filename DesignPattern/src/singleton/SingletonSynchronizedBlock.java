@@ -10,7 +10,7 @@ public class SingletonSynchronizedBlock {
 
     public static SingletonSynchronizedBlock getInstance() {
         if (instance == null) {
-            synchronized (instance) {
+            synchronized (SingletonSynchronizedBlock.class) {
                 if (instance == null) {
                     instance = new SingletonSynchronizedBlock();
                 }
